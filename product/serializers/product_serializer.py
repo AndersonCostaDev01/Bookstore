@@ -1,10 +1,12 @@
 from rest_framework import serializers
 
 # Importa os modelos de Categoria e Produto
-from product.models.product import Category, Product
+from product.models.product import  Product
+from product.models.category import Category
 
 # Importa o serializer da Categoria para exibir os dados dela no retorno da API
 from product.serializers.category_serializer import CategorySerializer
+
 
 
 class ProductSerializer(serializers.ModelSerializer):
