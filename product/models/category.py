@@ -1,3 +1,5 @@
+# product/models/Category.py
+
 from django.db import models
 
 class Category(models.Model):
